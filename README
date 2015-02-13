@@ -14,7 +14,7 @@ Command line compilation:
 
   $> erl -make
 
-Erl compilation:
+Erlang shell compilation :
 
   > make:all([load]).
 
@@ -28,7 +28,7 @@ Distributed shell:
 
 Remote shell:
 
-  $> erl -pa ebin -name remote@<IP-address> -remsh <your-name>@<IP-address>
+  $> erl -pa ebin -name <remote-name>@<IP-address> -remsh <your-name>@<IP-address>
 
 Starting chat client:
 
